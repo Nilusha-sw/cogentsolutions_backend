@@ -2,10 +2,10 @@
 
 ## 1. Live Gateways
 
-| Frontend (React SPA) | `https://your-frontend.vercel.app` |
-| Backend API (FastAPI) | `https://your-backend.railway.app` |
-| Health Check | `https://your-backend.railway.app/health` |
-| Debug Scores | `https://your-backend.railway.app/debug/scores?q=supply+chain+automation` |
+| Frontend (React SPA) | `https://cogentsolutionsassignment.netlify.app` |
+| Backend API (FastAPI) | `https://cogentsolutions-backend.onrender.com` |
+| Health Check | `https://cogentsolutions-backend.onrender.com/health` |
+| Debug Scores | `https://cogentsolutions-backend.onrender.com/debug/scores?q=supply+chain+automation` |
 
 
 ## 2. Local Setup Guide
@@ -47,7 +47,7 @@ python -c "import nltk; nltk.download('stopwords'); nltk.download('wordnet'); nl
 uvicorn main:app --reload --port 8000
 ```
 
-Backend runs at: `http://localhost:8000`
+Backend runs at: `http://cogentsolutions-backend.onrender.com`
 
 ### Frontend Setup
 
@@ -59,10 +59,10 @@ cd frontend
 npm install
 
 # Start the dev server
-npm run dev
+npm start
 ```
 
-Frontend runs at: `http://localhost:5173`
+Frontend runs at: `http://cogentsolutionsassignment.netlify.app`
 
 ---
 
