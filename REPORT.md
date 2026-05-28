@@ -18,8 +18,8 @@
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/accelalpha-oracle.git
-cd accelalpha-oracle
+backend - git clone https://github.com/Nilusha-sw/cogentsolutions_backend.git
+frontend - git clone https://github.com/Nilusha-sw/cogentsolutions_frontend.git
 ```
 
 ### Backend Setup
